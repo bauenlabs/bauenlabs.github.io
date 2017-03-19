@@ -1,0 +1,21 @@
+@font-awesome.min.css;
+
+body {
+  background-color: #3c3f42;
+}
+
+#bauen-labs-jumbotron {
+    margin: auto;
+    width: 75%;
+    /* padding: 10px; */
+    text-align: center;
+    vertical-align: middle;
+}
+#details-row-container {
+    margin: auto;
+    width: 75%;
+    color: white
+}
+#github-button {
+      font-size: 50px;
+}
