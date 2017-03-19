@@ -1,15 +1,35 @@
-@font-awesome.min.css;
+#content {
+  overflow: auto;
+  position: relative;
+}
 
-body {
-  background-color: #3c3f42;
+#content:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url("backgroundImage.jpg");
+  background-size:cover;
+  width: 100%;
+  height: 100%;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
 }
 
 #bauen-labs-jumbotron {
     margin: auto;
     width: 75%;
-    /* padding: 10px; */
     text-align: center;
     vertical-align: middle;
+    opacity: 0.75;
+    text-color: #ffffff;
 }
 #details-row-container {
     margin: auto;
