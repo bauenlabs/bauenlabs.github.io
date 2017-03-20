@@ -28,8 +28,10 @@
     width: 75%;
     text-align: center;
     vertical-align: middle;
-    opacity: 0.75;
-    text-color: #ffffff;
+     border-width: thin;
+    color: #ffffff;
+    border-style:solid;
+    background: rgba(255, 255, 255, 0.0);
 }
 #details-row-container {
     margin: auto;
