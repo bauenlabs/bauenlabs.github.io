@@ -11,6 +11,7 @@
   z-index: -1;
 
   display: block;
+  background-color: black;
   background-image: url("backgroundImage.jpg");
   background-size:cover;
   width: 100%;
